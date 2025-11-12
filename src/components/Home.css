@@ -1,0 +1,266 @@
+.main-logo{
+  height: 80px;
+}
+a{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.main-content{
+  text-align: end;
+  margin-top: 20px;
+}
+.sbi-right-logo{
+ text-align: right;
+}
+.logo-section{
+border: 1px solid rgb(216, 216, 216);
+}
+.navbar {
+    display: flex;
+    /* align-items: center; */
+    background-color: #0a3871; /* Deep blue */
+    color: white;
+    font-size: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* Individual navbar items */
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #19539b; /* Dividing line */
+    transition: background 0.2s;
+  }
+
+  /* Remove right border from last item before Hindi button */
+  .navbar a:last-of-type {
+    border-right: none;
+  }
+
+  /* Hover effect */
+  .navbar a:hover {
+    background-color: #133b6d;
+  }
+
+  /* Hindi button on the far right */
+  .hindi-btn {
+    margin-left: auto;
+    background-color: #165a24;
+    padding: 12px 18px;
+    font-weight: bold;
+    border-left: 1px solid #19539b;
+  }
+
+  .hindi-btn:hover {
+    background-color: #1d7a33;
+  }
+
+  /* Small text (like SBMOPS, New) */
+  .small-text {
+    font-size: 10px;
+    vertical-align: super;
+    margin-left: 2px;
+    color: #7fbfff;
+  }
+  .header-alert {
+    text-align: center;
+    font-weight: bold;
+    color: #2441E5;
+    border: 1px #d8d8d8 solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-alert marquee {
+  color: red;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.marquee-card{
+   background: rgb(226, 247, 253);
+     color: rgb(168, 0, 0);
+    font-weight: bold;
+    font-size: 12px;
+    /* padding: 7px; */
+    display: block;
+    margin: 4px 0px;
+}
+.para-color{
+    color: #003366;
+    font-size: 0.8rem;
+}
+
+@keyframes blinkColors {
+  0% {
+    color: rgb(179, 0, 0); /* dark red */
+  }
+  33% {
+    color: rgb(36, 65, 229); /* blue */
+  }
+  66% {
+    color: rgb(0, 102, 0); /* green */
+  }
+  100% {
+    color: rgb(179, 0, 0); /* loop back to red */
+  }
+}
+
+/* Apply the animation to an element */
+.blink-color {
+  animation: blinkColors 2s infinite; /* 1.5s per cycle, repeats forever */
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.banking_section {
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-image: initial;
+    background-color: rgb(248, 248, 248);
+    
+}
+.login{
+  background: rgb(255, 255, 255);
+    margin: 10px 0px;
+}
+.login a{
+  background: rgb(12, 55, 106);
+    color: rgb(255, 255, 255);
+     width: 85px;
+    height: 30px;
+    font-weight: bold;
+}
+#bankingBoxes{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.iconLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconLinks a {
+  color: #0d6efd;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 0 12px; /* space between borders */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.iconLinks a:hover {
+  color: #084298;
+  text-decoration: underline;
+}
+
+.iconLinks img {
+  vertical-align: middle;
+  margin-right: 6px; /* spacing between icon and text */
+}
+
+.btn img {
+  vertical-align: middle;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+/* New class for right border */
+.border-right {
+  border-right: 1px solid #ccc;
+  padding-right: 12px; /* spacing so text doesn't stick to border */
+  margin-right: 12px;  /* spacing after border */
+}
+
+/* Remove border from last element */
+.iconLinks a:last-child {
+  border-right: none;
+}
+.image-margin{
+  margin-top:8px;
+}
+.login-align{
+  height: 50px;
+  width: 300px;
+}
+
+/* Optional: responsive for mobile (stacked links) */
+@media (max-width: 768px) {
+  .iconLinks {
+    flex-direction: column;
+  }
+  .iconLinks a {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    margin-right: 0;
+    padding: 8px 0;
+  }
+  .iconLinks a:last-child {
+    border-bottom: none;
+  }
+ .useful-links {
+  justify-content: center;
+  gap: 80px;
+  background-color: rgb(248, 248, 248);
+  padding: 30px;
+}
+
+.useful-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.useful-links li {
+  color: #003366;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.useful-links li:hover {
+  text-decoration: underline;
+}
+ 
+}
+/* banner section */
+.banner-section {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.banner-section img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  /* border-radius: 10px; */
+}
+/* footer section */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.small-text {
+  font-size: 12px;
+  color: #ddd;
+}
+
+
+
