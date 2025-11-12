@@ -15,8 +15,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^7.9.5",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage":"https://onlinesbi.sbibank.netlify.app/"
+    "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
