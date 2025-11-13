@@ -67,9 +67,10 @@ return(
                 <a href="#mainContent">Skip to main content</a>
             </div>
             <div className="col-md-1 sbi-right-logo">
-                <img className="main-logo"
-                    src=""
-                    alt="SBI Logo" />
+               {/* <div class="logo"> */}
+                <img alt="SBI Logo" src="https://retail.onlinesbi.sbi/sbijava/retail/images/sbi_logo.png"/>
+                <div class="sbi-online-text">ONLINE</div>
+                {/* </div> */}
             </div>
         </div>
 
@@ -274,7 +275,7 @@ return(
                 ))}
               </div>
             </div>
-            <div>
+            <div className="mt-4">
               {/* <p>&nbsp;</p> */}
             </div>
             <p className="">
